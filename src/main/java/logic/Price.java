@@ -1,4 +1,4 @@
-package Logic;
+package logic;
 
 abstract class Price {
     abstract int getPriceCode();

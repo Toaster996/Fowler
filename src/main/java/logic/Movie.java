@@ -1,4 +1,4 @@
-package Logic;
+package logic;
 
 public class Movie {
 
@@ -30,7 +30,7 @@ public class Movie {
                 price = new NewReleasePrice();
                 break;
             default:
-                throw new IllegalArgumentException("Incorrect Logic.Price Code");
+                throw new IllegalArgumentException("Incorrect logic.Price Code");
         }
     }
 
