@@ -1,3 +1,5 @@
+package Logic;
+
 class Rental {
 
     private Movie movie;

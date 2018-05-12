@@ -1,3 +1,5 @@
+package Logic;
+
 public class RegularPrice extends Price {
 
     int getPriceCode() {

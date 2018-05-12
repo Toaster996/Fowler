@@ -1,3 +1,5 @@
+package Logic;
+
 public class Movie {
 
     public static final int CHILDREN = 2;
@@ -28,7 +30,7 @@ public class Movie {
                 price = new NewReleasePrice();
                 break;
             default:
-                throw new IllegalArgumentException("Incorrect Price Code");
+                throw new IllegalArgumentException("Incorrect Logic.Price Code");
         }
     }
 

@@ -1,5 +1,4 @@
-
-import org.junit.After;
+package Logic;
 
 import org.junit.Before;
 
@@ -38,7 +37,7 @@ public class CustomerTest {
 
     @Test
     public void statement() {
-        String expected = "Rental Record for " + name + "\n" +
+        String expected = "Logic.Rental Record for " + name + "\n" +
                 "\tTitle\t\tDays\tAmount\n" +
                 "\t" + movie.getTitle() + "\t\t" + rental.getDaysRented() + "\t3.5\n" +
                 "Amount owed is 3.5\n" +

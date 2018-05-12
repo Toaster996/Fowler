@@ -1,3 +1,5 @@
+package Logic;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,8 +24,8 @@ public class MovieTest {
 
     @Test
     public void setPriceCode() {
-        movie.setPriceCode(Movie.CHILDRENS);
-        assertEquals(movie.getPriceCode(), Movie.CHILDRENS);
+        movie.setPriceCode(Movie.CHILDREN);
+        assertEquals(movie.getPriceCode(), Movie.CHILDREN);
     }
 
 

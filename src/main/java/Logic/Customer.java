@@ -1,4 +1,5 @@
-import java.lang.*;
+package Logic;
+
 import java.util.*;
 
 class Customer {
@@ -20,7 +21,7 @@ class Customer {
 
     public String statement() {
         Enumeration enum_rentals = rentals.elements();
-        String result = "Rental Record for " + getName() + "\n" + "\tTitle\tDays\tAmount\n";
+        String result = "Logic.Rental Record for " + getName() + "\n" + "\tTitle\tDays\tAmount\n";
         while (enum_rentals.hasMoreElements()) {
             Rental each = (Rental) enum_rentals.nextElement();
             //show figures for this rental

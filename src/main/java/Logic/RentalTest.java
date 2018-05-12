@@ -1,3 +1,5 @@
+package Logic;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -36,7 +38,7 @@ public class RentalTest {
 
     @Test
     public void chargeAmountChildren(){
-        movie.setPriceCode(Movie.CHILDRENS);
+        movie.setPriceCode(Movie.CHILDREN);
         double actual = rental.getCharge();
         assertEquals(3d, actual, 0);
     }

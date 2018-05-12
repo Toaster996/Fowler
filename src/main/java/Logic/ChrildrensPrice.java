@@ -1,3 +1,5 @@
+package Logic;
+
 public class ChrildrensPrice extends Price {
     int getPriceCode() {
         return Movie.CHILDREN;
